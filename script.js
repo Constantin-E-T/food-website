@@ -13,7 +13,7 @@ setInterval(() => {
  if (i > icons.length){
   icons[0].classList.add('change')
   i = 1
- }else{
+ }else {
   icon.nextElementSibling.classList.add('change')  
  }
 
